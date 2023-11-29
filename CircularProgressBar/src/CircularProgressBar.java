@@ -46,6 +46,7 @@ class CircularProgressBarPanel extends JPanel {
     public void setProgress(int progress) {
         this.progress = progress;
     }
+    
 
     @Override
     protected void paintComponent(Graphics g) {
