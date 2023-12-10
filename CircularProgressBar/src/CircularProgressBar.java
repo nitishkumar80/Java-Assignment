@@ -62,7 +62,7 @@ class CircularProgressBarPanel extends JPanel {
         g2d.fillOval(x, y, diameter, diameter);
 
         // Draw the progress arc
-        g2d.setColor(Color.BLUE);
+        g2d.setColor(Color.red);
         g2d.fillArc(x, y, diameter, diameter, 90, -progress);
 
         // Draw the border of the circle
